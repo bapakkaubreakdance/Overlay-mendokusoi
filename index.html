@@ -2,26 +2,32 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+
 <style>
 html,body{
 margin:0;
-padding:0;
+width:100vw;
+height:100vh;
 background:transparent;
 overflow:hidden;
 }
 
 .wrap{
 position:fixed;
-left:50%;
+
+left:0;
+right:0;
+
 bottom:0;
-transform:translateX(-50%);
-width:45vw;
-max-width:700px;
+
+display:flex;
+justify-content:center;
 }
 
 img{
-width:100%;
-display:block;
+width:100vw;
+max-width:none;
+height:auto;
 }
 </style>
 </head>
