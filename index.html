@@ -7,16 +7,26 @@
 html,body{
 margin:0;
 padding:0;
-background:transparent;
+width:100%;
+height:100%;
 overflow:hidden;
+background:transparent;
+}
+
+body{
+display:flex;
+justify-content:center;
+align-items:flex-end;
 }
 
 img{
-width:100vw;
+width:100%;
 height:auto;
 
-transform:scale(0.42);
-transform-origin:top left;
+max-width:675px;
+max-height:133px;
+
+object-fit:contain;
 
 display:block;
 }
@@ -25,7 +35,7 @@ display:block;
 
 <body>
 
-<img src="Picsart_26-06-28_12-24-58-449.jpg">
+<img src="Picsart_26-06-28_14-13-44-881.jpg">
 
 </body>
 </html>
